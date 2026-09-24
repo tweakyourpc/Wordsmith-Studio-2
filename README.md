@@ -10,6 +10,9 @@ as GIF, MP4, or WebM, all in your browser.
 ## Why this edition
 
 - Mobile-capable Compose, Animate, and Export workspaces.
+- Light, Dark, Warm paper, High contrast, and device-following color modes under
+  **Project → Settings → Appearance**. Your choice is remembered in this browser
+  and does not change animation or export colors.
 - Self-contained static site: no backend, account, analytics, or upload step.
 - Full 89,830-word dictionary, Finder, bundled fonts, and offline-friendly assets.
 - Local GIF and video export with WebCodecs plus a MediaRecorder fallback for

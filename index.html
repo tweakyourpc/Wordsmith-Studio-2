@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="color-scheme" content="dark">
+    <meta name="color-scheme" content="light dark">
+    <script src="theme.js"></script>
     <meta name="description" content="Wordsmith Studio: compose exact anagrams, animate the letters into their new places, and export a GIF or video. Works offline in your browser.">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <title>Wordsmith Studio</title>
@@ -464,6 +465,19 @@
     <dialog class="dialog dialog-sheet" id="settingsDialog" aria-labelledby="settingsTitle">
         <form method="dialog" class="dialog-inner settings" id="settingsForm">
             <h2 id="settingsTitle">Settings</h2>
+            <fieldset class="settings-group">
+                <legend>Appearance</legend>
+                <label class="settings-inline" for="setTheme">Color mode
+                    <select id="setTheme" aria-describedby="themeHelp">
+                        <option value="system">Use device setting</option>
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="sepia">Warm paper</option>
+                        <option value="contrast">High contrast</option>
+                    </select>
+                </label>
+                <p class="field-help" id="themeHelp">Changes the editor colors, not your animation or exports. Remembered on this browser.</p>
+            </fieldset>
             <fieldset class="settings-group">
                 <legend>Check words</legend>
                 <label class="check"><input type="checkbox" id="setDictCheck"> Flag words not in the dictionary</label>
