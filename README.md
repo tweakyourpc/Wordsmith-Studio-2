@@ -1,6 +1,6 @@
 # Wordsmith Studio V2
 
-![Wordsmith Studio V2 running on desktop and mobile](docs/assets/wordsmith-studio-v2-hero.png)
+![Wordsmith Studio V2 runs on desktop and mobile](docs/assets/wordsmith-studio-2-preview.jpg)
 
 Create exact anagrams, turn them into kinetic typography, and export the result
 as GIF, MP4, or WebM, all in your browser.
